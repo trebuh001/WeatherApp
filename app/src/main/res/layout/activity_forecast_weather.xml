@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ForecastWeatherActivity"
+    android:background="@drawable/mainbackground_gradient">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_forecast_weather"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/titleColor"
+        android:fontFamily="@font/magnolia_script"
+        android:textStyle="bold"
+        />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_forecast_city"
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></androidx.viewpager.widget.ViewPager>
+
+
+</RelativeLayout>

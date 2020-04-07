@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SettingsAppActivity"
+    android:background="@drawable/mainbackground_gradient">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_settings_app"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/titleColor"
+        android:fontFamily="@font/magnolia_script"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/txt_unit_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:paddingHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/times"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/set_unit_temp"
+        />
+    <RadioGroup
+        android:id="@+id/radio_group_temp_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txt_unit_temp"
+        android:orientation="vertical"
+
+        android:layout_marginHorizontal="30dp"
+        >
+    <RadioButton
+        android:id="@+id/radio_temp_celsius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grad_of_celsius"
+        android:buttonTint="@color/tableHeader"
+        android:textSize="16sp"
+
+        />
+
+    <RadioButton
+        android:id="@+id/radio_temp_kelvin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:buttonTint="@color/tableHeader"
+        android:text="@string/grad_of_kelvin" />
+        <RadioButton
+            android:id="@+id/radio_temp_fahrenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:buttonTint="@color/tableHeader"
+            android:text="@string/grad_of_fahrenheit" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio_group_temp_unit"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/set_unit_temp"
+        android:onClick="Btn_set_unit"
+        android:fontFamily="@font/times"
+        android:textSize="16sp"
+        android:alpha="0.65"
+        />
+</RelativeLayout>

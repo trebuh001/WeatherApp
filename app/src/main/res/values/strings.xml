@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="api_error"> Error - empty data. Check if has been entered correct name of place in search field in before View.</string>
+    <string name="api_error2">Error</string>
+    <string name="Loading">Loading</string>
+    <string name="btn_save_location">Save Location to Database</string>
+    <string name="toast_location_saved">Location saved in favorites</string>
+    <string name="location_exist">This location already exist in favorites</string>
+
+    <!--  MainActivity    -->
+    <string name="app_name1">Weather Application</string>
+    <string name="hint_set_city_name">Set name of city</string>
+    <string name="btn_city_weather_check">Check current weather in city</string>
+    <string name="btn_forecast_city_weather_check">Check forecast weather in city</string>
+    <string name="btn_forecast_gps_weather_check">Check forecast weather using GPS</string>
+    <string name="btn_gps_weather_check">Check current weather using GPS</string>
+    <string name="btn_settings_application">Settings of Application</string>
+    <string name="btn_favorites_places">Favorites Locations</string>
+    <string name="alert_empty_field_text">You must write name of city in text field on top</string>
+
+    <!--  CurrentWeatherActivity     -->
+    <string name="place">Place</string>
+    <string name="title_current_weather">Current Weather</string>
+    <string name="main_values">Main Values</string>
+    <string name="wind">Wind</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="wind_degree">Wind degree</string>
+    <string name="temperature">Temperature</string>
+    <string name="temp_feel_like">Temp. feels like</string>
+    <string name="max_temp">Max. temperature</string>
+    <string name="min_temp">Min. temperature</string>
+    <string name="visibility">Visibilty</string>
+    <string name="pressure">Air pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="description">Description</string>
+
+    <!--          ForecastWeatherAcitivity           -->
+    <string name="title_forecast_weather">Forecast Weather</string>
+    <string name="datetime">Date time</string>
+    <string name="swipe_left_right">Swipe left and right</string>
+
+    <!--          SettingsAppActivity                -->
+    <string name="title_settings_app">Settings of Application</string>
+    <string name="set_unit_temp">Set unit of temperature</string>
+    <string name="grad_of_celsius">Grad of Celsius</string>
+    <string name="grad_of_kelvin">Grad of Kelvin</string>
+    <string name="grad_of_fahrenheit">Grad of Fahrenheit</string>
+    <string name="temp_unit_set_to">Temperature unit set to: </string>
+
+    <!--          GPStracker                         -->
+    <string name="please_on_gps">Please on GPS</string>
+    <string name="permission_not_granted">Location permission not granted. You must turn on location permission for Your WeatherApp in Device Settings. </string>
+
+    <!--         FavoritesPlacesActivity                     -->
+    <string name="txt_favorites_places">Tap in position on the List below</string>
+
+    <!--         ChoiceWeatherForecastActivity               -->
+    <string name="delete_location_from_favorites">Delete Location from Favorites</string>
+    <string name="choice_weather_forecast">Choose Current Weather or Forecast Weather</string>
+    <string name="location">Location</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="api_error2">Błąd</string>
+    <string name="api_error"> Błąd - brak danych. Sprawdź czy wpisano poprawną nazwę miejscowości w polu wyszukiwania w poprzednim Widoku</string>
+    <string name="Loading">Ładowanie</string>
+    <string name="btn_save_location">Zapisz lokalizację do bazy danych</string>
+    <string name="toast_location_saved">Lokalizacja zapisana w ulubionych</string>
+    <string name="location_exist">Ta lokalizacja istnieje już w ulubionych</string>
+    <!--  MainActivity.xml     -->
+
+    <string name="app_name1">Aplikacja Pogodowa</string>
+    <string name="hint_set_city_name">Podaj nazwę miejscowości</string>
+    <string name="btn_city_weather_check">Sprawdź aktualną pogodę w miejscowości</string>
+    <string name="btn_forecast_city_weather_check">Sprawdź prognozę pogody w miejscowości</string>
+    <string name="btn_forecast_gps_weather_check">Sprawdź prognozę pogody używając GPS</string>
+    <string name="btn_gps_weather_check">Sprawdź aktualną pogodę używając GPS</string>
+    <string name="btn_settings_application">Ustawienia aplikacji</string>
+    <string name="btn_favorites_places">Ulubione lokalizacje</string>
+    <string name="alert_empty_field_text">Musisz wpisać nazwę miejscowości w polu tekstowym u góry</string>
+    <!--  CurrentWeatherActivity     -->
+    <string name="place">Miejscowość</string>
+    <string name="title_current_weather">Aktualna Pogoda</string>
+    <string name="main_values">Główne wartości</string>
+    <string name="wind">Wiatr</string>
+    <string name="wind_speed">Prędkość wiatru</string>
+    <string name="wind_degree">Stopień wiatru</string>
+    <string name="temperature">Temperatura</string>
+    <string name="temp_feel_like">Temperatura odczuwalna</string>
+    <string name="max_temp">Maks. temperatura</string>
+    <string name="min_temp">Min. temperatura</string>
+    <string name="visibility">Widoczność</string>
+    <string name="pressure">Ciśnienie powietrza</string>
+    <string name="humidity">Wilgotność</string>
+    <string name="description">Opis pogody</string>
+
+    <!--          ForecastWeatherAcitivity           -->
+    <string name="title_forecast_weather">Prognoza pogody</string>
+    <string name="datetime">Data i godzina</string>
+    <string name="swipe_left_right">Przesuwaj w lewo i prawo</string>
+    <!--          SettingsAppActivity                -->
+    <string name="title_settings_app">Ustawienia aplikacji</string>
+    <string name="set_unit_temp">Ustaw jednostkę temperatury</string>
+    <string name="grad_of_celsius">Stopnie Celsjusza</string>
+    <string name="grad_of_kelvin">Stopnie Kelwina</string>
+    <string name="grad_of_fahrenheit">Stopnie Fahrenheita</string>
+    <string name="temp_unit_set_to">Jednostkę temperatury ustawiono na: </string>
+
+    <!--         FavoritesPlacesActivity                     -->
+    <string name="txt_favorites_places">Stuknij w pozycję na liście poniżej</string>
+
+    <!--          GPStracker                         -->
+    <string name="please_on_gps">Proszę włączyć GPS</string>
+    <string name="permission_not_granted">Nie przyznano pozwolenia lokalizacji. Musisz włączyć  pozwolenia lokalizacj dla Twojej WeatherApp w ustawieniach urządzenia. </string>
+    <!--         ChoiceWeatherForecast               -->
+    <string name="delete_location_from_favorites">Usuń lokalizację z ulubiionych</string>
+    <string name="choice_weather_forecast">Wybierz Aktualną Pogodę lub Prognozę Pogody</string>
+    <string name="location">Lokalizacja</string>
+</resources>

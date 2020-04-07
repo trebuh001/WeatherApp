@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#2196F3</color>
+
+    <color name="titleColor">#5528A5</color>
+    <color name="etBackground">#9BDEE6</color>
+    <color name="tableHeader">#C1B7B7</color>
+    <color name="tableRow">#E8E7E7</color>
+    <color name="btnDelete">#ED4F4F</color>
+</resources>
