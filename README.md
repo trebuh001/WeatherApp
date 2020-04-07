@@ -1,7 +1,7 @@
 # EN
 
 # WeatherApp
-Minimum Api: 24
+# Minimum Api: 24
 Current Weather and Forecast Weather through
 -City name,
 -GPS.
@@ -19,7 +19,7 @@ should to tell you about this problem).
 # PL
 
 # WeatherApp
-Minimalne Api: 24
+# Minimalne Api: 24
 Aktualna Pogoda oraz Prognoza Pogody przez:
 -nazwę miejscowości,
 -GPS.
