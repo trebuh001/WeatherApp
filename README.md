@@ -1,7 +1,7 @@
 # EN
 
 # WeatherApp
-Minimum Api 24
+Minimum Api: 24
 Current Weather and Forecast Weather through
 -City name,
 -GPS.
@@ -19,7 +19,7 @@ should to tell you about this problem).
 # PL
 
 # WeatherApp
-Minimum Api 24
+Minimalne Api: 24
 Aktualna Pogoda oraz Prognoza Pogody przez:
 -nazwę miejscowości,
 -GPS.
@@ -27,7 +27,7 @@ Dwa języki (Angielski - domyślny oraz Polski).
 
 
 
-# Important!
+# Ważne!
 Jeżeli próbujesz użyć opccji GPS i masz błędy, musisz sprawdzić czy w lokalizacji: 
 Ustawienia->Aplikacje->WeatherApp->Uprawnienia lub Ustawienia->Lokalizacja->Aplikacje->WeatherApp 
 masz  włączone uprawnienie lokalizacji dla aplikacji WeatherApp (oczywiście aplikacja powinna sama
