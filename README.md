@@ -9,7 +9,7 @@ Two languages (English - default, and Polish).
 
 
 # Important!
-If you want use GPS options and you have errors  you must check in:
+If you want use GPS options and you have errors  you must check in: 
 Settings->Application->WeatherApp->Permissions or Settings->Location->Applications->WeatherApp  
 and you must have turn on permission for location on this WeatherApp (obviously application 
 should to tell you about this problem).
