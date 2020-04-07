@@ -28,7 +28,7 @@ Dwa języki (Angielski - domyślny oraz Polski).
 
 
 # Ważne!
-Jeżeli próbujesz użyć opccji GPS i masz błędy, musisz sprawdzić czy w lokalizacji: 
+Jeżeli próbujesz użyć opcji GPS i masz błędy, musisz sprawdzić czy w lokalizacji: 
 Ustawienia->Aplikacje->WeatherApp->Uprawnienia lub Ustawienia->Lokalizacja->Aplikacje->WeatherApp 
 masz  włączone uprawnienie lokalizacji dla aplikacji WeatherApp (oczywiście aplikacja powinna sama
 poinformować Cię o problemie i przenieść do odpowiedniego miejsca w ustawieniach).
