@@ -5,7 +5,7 @@
 Current Weather and Forecast Weather through
 -City name,
 -GPS.
-Two languages (English - default, and Polish).
+Two languages (english - default, and polish).
 
 
 
